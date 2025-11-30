@@ -1,7 +1,7 @@
 # Scarlett4 Firmware
 
-This repository contains the latest firmware for these Focusrite
-interfaces:
+This repository contains the latest firmware that is tested with Linux
+for these Focusrite interfaces:
 
 - Scarlett 4th Gen 16i16, 18i16, and 18i20
 
