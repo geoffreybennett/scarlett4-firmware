@@ -1,8 +1,8 @@
 Package: scarlett4-firmware
-Version: VERSION
+Version: 1:VERSION
 Section: non-free/sound
 Priority: optional
 Architecture: all
-Depends: 
+Depends:
 Maintainer: Geoffrey D. Bennett <g@b4.vu>
-Description: Firmware for Focusrite devices supported by the FCP driver
+Description: Firmware for Focusrite Scarlett 4th Gen 16i16, 18i16, 18i20
