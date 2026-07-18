@@ -2,7 +2,7 @@ Name:           scarlett4-firmware
 Epoch:          1
 Version:        VERSION
 Release:        1%{?dist}
-Summary:        Firmware for Focusrite Scarlett 4th Gen 16i16, 18i16, 18i20
+Summary:        Firmware for Focusrite Scarlett 4th Gen 16i16, 18i16, 18i20 and ISA C8X
 
 License:        Redistributable, no modification permitted
 URL:            https://github.com/geoffreybennett/scarlett4-firmware
@@ -13,7 +13,7 @@ BuildRequires:  make
 
 %description
 Firmware files for the Focusrite Scarlett 4th Gen 16i16, 18i16, and
-18i20 audio interfaces.
+18i20, and ISA C8X audio interfaces.
 
 %prep
 %setup -q
@@ -32,6 +32,10 @@ install -pm 644 LICENSE.Focusrite %{buildroot}/usr/share/licenses/scarlett4-firm
 /usr/share/licenses/scarlett4-firmware
 
 %changelog
+* Sun Jul 19 2026 Geoffrey D. Bennett <g@b4.vu> - 1.1-1
+- Update Scarlett Gen 4 firmware to 2778
+- Add ISA C8X firmware 2761
+
 * Mon Jan 26 2026 Geoffrey D. Bennett <g@b4.vu> - 1.0-1
 - Release 1.0
 - Add Epoch to handle version number reset

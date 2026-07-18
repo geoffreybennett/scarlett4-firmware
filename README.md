@@ -4,6 +4,7 @@ This repository contains firmware for these Focusrite interfaces which
 has been tested and works well with Linux:
 
 - Scarlett 4th Gen 16i16, 18i16, and 18i20
+- ISA C8X
 
 These files are only useful with:
 

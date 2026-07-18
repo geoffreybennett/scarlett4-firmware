@@ -46,7 +46,7 @@ deb:
 	@echo "Upstream-Contact: Geoffrey D. Bennett <g@b4.vu>" >> deb-build/usr/share/doc/$(NAME)/copyright
 	@echo "" >> deb-build/usr/share/doc/$(NAME)/copyright
 	@echo "Files: *" >> deb-build/usr/share/doc/$(NAME)/copyright
-	@echo "Copyright: 2024-2025 Focusrite Audio Engineering Limited" >> deb-build/usr/share/doc/$(NAME)/copyright
+	@echo "Copyright: 2024-2026 Focusrite Audio Engineering Limited" >> deb-build/usr/share/doc/$(NAME)/copyright
 	@echo "License: Focusrite-Firmware" >> deb-build/usr/share/doc/$(NAME)/copyright
 	@echo "" >> deb-build/usr/share/doc/$(NAME)/copyright
 	@echo "License: Focusrite-Firmware" >> deb-build/usr/share/doc/$(NAME)/copyright
